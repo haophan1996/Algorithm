@@ -1,5 +1,3 @@
-package quadratic_equations;
-
 import java.util.Scanner;
 
 public class QUADRATIC_EQUATIONS {
