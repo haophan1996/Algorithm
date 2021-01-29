@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class QUADRATIC_EQUATIONS {
+public class Quadratic_Equations {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
