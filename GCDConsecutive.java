@@ -1,15 +1,11 @@
-package gcd.consecutive;
-
 public class GCDConsecutive {
 
     public static void main(String[] args) {
         int[] arr = {24, 34};
         System.out.println(getGCD(arr));
-
     }
 
     public static double getGCD(int[] arr) {
-
         double high = (double) getHighestNumber(arr);
         double low = (double) getMinNumber(arr);
         if (low == 0) {
