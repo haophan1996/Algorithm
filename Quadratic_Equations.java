@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class QUADRATIC_EQUATIONS {
 
     public static void main(String[] args) {
