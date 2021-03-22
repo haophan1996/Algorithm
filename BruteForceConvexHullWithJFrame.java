@@ -66,7 +66,7 @@ public class BruteForceConvexHull extends JPanel {
         int s[][] = {{1, 1}, {2, 5}, {3, 2}, {3, 4}, {4, 3}, {5, 7}, {6, 2}};
 
         
-        // Draw a every point x y of array s
+        // Draw every point x y of array s
         for (int i = 0; i < s.length; i++) {
             double x2 = x1 + s[i][0] * 60;
             double y2 = y1 - s[i][1] * 60;
@@ -87,7 +87,7 @@ public class BruteForceConvexHull extends JPanel {
         
         
         s = convexHullProblem(s);
-        //Draw a line that can connect to each other
+        //Draw line that can connect to each other
         for (int i = 0; i < s.length; i++) {
             px = x1 + s[i][0] * 60;
             py = y1 - s[i][1] * 60;
