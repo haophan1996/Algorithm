@@ -2,7 +2,6 @@
     a = y2-y1, b=x1-x2, c=x1y2-y1-x2
     ax+by-c
     
-
     brute_force_convex_hull(a set ò n points, p){
     
         create empty set of line segments L
@@ -22,12 +21,7 @@
     Check out this link for example or understand 
     https://github.com/haophan1996/Algorithm/blob/main/Example/BruteForceConvexHull.JPG
 */
-
-
-
-
-
-
+  
 package convexhullbruteforce;
 
 import java.util.ArrayList;
