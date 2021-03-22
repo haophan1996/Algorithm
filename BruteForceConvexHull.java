@@ -1,3 +1,31 @@
+/*
+    a = y2-y1, b=x1-x2, c=x1y2-y1-x2
+    ax+by-c
+    
+
+    brute_force_convex_hull(a set ò n points, p){
+    
+        create empty set of line segments L
+        for (each point p1 in p)
+            for (each point p2 in p after p1)
+                a = p2.y - p1.y; b = p1. = p2.x
+                c = p1.x*p2y - p1.y*p2x
+                foundProblem = false
+                for (each point p3 in P (not p1 or p2))
+                    check = a*p3.x + b*p3.y -c
+                    if ( check does not match others)
+                        foundProblem = true
+                        break
+                    if (!foundProblem) add segment p1,p2 to L
+            extract and return list of points from L
+    } 
+*/
+
+
+
+
+
+
 package convexhullbruteforce;
 
 import java.util.ArrayList;
