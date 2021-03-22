@@ -19,6 +19,8 @@
                     if (!foundProblem) add segment p1,p2 to L
             extract and return list of points from L
     } 
+    Check out this link for example or understand 
+    https://github.com/haophan1996/Algorithm/blob/main/Example/BruteForceConvexHull.JPG
 */
 
 
