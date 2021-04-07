@@ -1,7 +1,7 @@
 package quickselect;
 
 /**
- *
+ * it works like a charm
  * @author haophan
  */
 public class QuickSelect {
